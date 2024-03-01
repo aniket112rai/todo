@@ -1,25 +1,22 @@
+<!DOCTYPE html>
+<html>
 
-#include <stdio.h>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-int main() {
-    int sum=0;
-    for(int i=0;i<=1000;i++){
-        sum=sum+i;
-        int qwerty=0;
-        for(int i=0;i<=1000;i++){
-            qwerty=qwerty+i;
-            int asd=0;
-            for(int i=0;i<=1000;i++){
-                asd=asd+i;
-                printf("%d\n",asd);
-            
-        }
-            printf("%d\n",qwerty);
-            
-        }
-            
-        printf("%d\n",sum);
-    }
-    printf("%d",sum);
-    return 0;
-}
+<body>
+  <input name="title", placeholder="title", id="title", class="style">
+  <br>
+  <input name="description", placeholder="description", id="description", class="style">
+  <br>
+  <button id="button", class="style", onclick=addTodo()>Add a Todo</button>
+  <div class="container"></div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
